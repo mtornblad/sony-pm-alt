@@ -20,7 +20,8 @@ CUSTOM_LD_LIBRARY_PATH = "/usr/local/lib" #common path if self-compiled
 
 #Might want to change:
 PHOTO_DIR = "/var/lib/Sony"  #photo/videos will be downloaded to here
-PTP_GUID = "ff:ff:52:54:00:b6:fd:a9:ff:ff:52:3c:28:07:a9:3a" #default value for sony-guid-setter
+# PTP_GUID = "ff:ff:52:54:00:b6:fd:a9:ff:ff:52:3c:28:07:a9:3a" #default value for sony-guid-setter
+PTP_GUID = "00:00:00:00:00:00:00:00:ff:ff:48:5a:b6:c8:03:31"
 DEBUG = False
 #------------------------------------------------------------------
 
